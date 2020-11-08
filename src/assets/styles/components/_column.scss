@@ -1,0 +1,182 @@
+.columns {
+    margin: 10px 30px;
+    background-color: $clr2;
+    padding: 10px;
+
+    button{
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+    
+
+    .place-holder {
+        opacity: 0;
+    }
+
+
+
+    h2 {
+        font-size: 16px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    ul {
+        padding: 5px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 500px;
+
+        &.dragging {
+            transition: .3s ease;
+            background-color: $clr3;
+        }
+
+
+        li {
+            background-color: inherit;
+            padding: 8px;
+            border-radius: 2px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            background-color: $clr2;
+            width: 200px;
+            position: relative;
+            
+            
+
+            &.task {
+
+                border: 1px solid black;
+            }
+
+
+            .title {
+                width: 180px;
+                margin: 5px 0;
+            }
+
+            .edit-container {
+                padding: 5px;
+                z-index: 2;
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                background-color:rgb(201, 206, 201);
+                width: 200px;
+                border-radius:2px ;
+                
+                label{
+                    width: 138px;
+                    margin: 10px auto;
+                    text-align: center;
+                    border-radius: 2px;
+                    // margin-top: 5px;
+                    border: 1px solid black;
+                    cursor: pointer;
+                    padding: 2px;
+                }
+
+                form input{
+                    width: 100%;
+                }
+            }
+
+            .menu-btn {
+                display: flex;
+                align-items: center;
+                background-color: initial;
+                border: none;
+                cursor: pointer;
+            }
+
+            .menu {
+                z-index: 2;
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                display: flex;
+                flex-direction: column;
+
+                button {
+                    cursor: pointer;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    width: 90px;
+                    background-color: rgb(248, 239, 239);
+                    padding: 3px;
+
+                    &:not(:last-child) {
+                        border-bottom: 1px solid rgba(75, 74, 74, 0.493);
+                    }
+                }
+            }
+
+            .list-container {
+
+                .list {
+                    li {
+                        width: 180px;
+                        border-bottom: 1px solid rgba(75, 74, 74, 0.493);
+                        
+                        button{
+                            background-color: inherit;
+                            border: none;
+                            cursor: pointer;
+                        }
+
+                        input{
+                            cursor: pointer;
+                            margin-right: 5px;
+                        }
+                        
+
+                        div {
+                            &.done {
+                                text-decoration-line: line-through;
+                            }
+                        }
+                    }
+
+                }
+
+                form input {
+                    width: 180px;
+                }
+            }
+
+            &.dragging {
+                transition: .3s ease;
+                background-color: $clr4;
+            }
+
+            &.no-drag {
+                background-color: rgb(201, 206, 201);
+            }
+
+            .handle {
+                width: 20px;
+                height: 20px;
+                background-color: skyblue;
+                margin-right: 8px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    form {
+        input {
+            font-size: 20px;
+            width: 210px;
+            background-color: inherit;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+    }
+}

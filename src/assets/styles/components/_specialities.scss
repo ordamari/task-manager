@@ -1,0 +1,22 @@
+.main-div {
+
+
+    .specialities {
+        .add-column-container {
+            background-color: $clr2;
+            margin: 10px;
+            padding: 10px;
+            min-width: 200px;
+
+            form {
+                input {
+                    font-size: 20px;
+                    width: 100%;
+                    background-color: inherit;
+                    border: none;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+}
