@@ -1,35 +1,27 @@
 
 var initialData = {
     tasks: {
-        t101: { id: 't101', contact: 'styling', info:{media:'',show:true} },
-        t102: { id: 't102', contact: 'functionality', info:{media:'',show:true} },
-        t103: { id: 't103', contact: 'add button', info:{media:'',show:true}},
-        t104: { id: 't104', contact: '4', info:{media:'https://ordamari.github.io/protfolio/static/media/react.448ca321.png',show:true} },
-        t105: { id: 't105', contact: '5', info:{media:'https://www.youtube.com/watch?v=MhntcA7_WxA',show:true} },
-        t106: { id: 't106', contact: '6', info:{media:'',show:true, tdList:[{title:'do', isFinish:false},{title:'dodo', isFinish:true}]} },
-        t107: { id: 't107', contact: '7', info:{media:'',show:true} },
-        t108: { id: 't108', contact: '8', info:{media:'',show:true} },
-        t109: { id: 't109', contact: '9', info:{media:'',show:true} },
-        t110: { id: 't110', contact: '10', info:{media:'',show:true} },
-        t111: { id: 't111', contact: '11', info:{media:'',show:true} },
-        t112: { id: 't112', contact: '12', info:{media:'',show:true} },
-        t113: { id: 't113', contact: '13', info:{media:'',show:true} },
+        t101: { id: 't101', contact: 'buy food', info:{media:'',show:true , tdList:[{title:'chips', isFinish:false},{title:'bamba', isFinish:true},{title:'apropo', isFinish:true}]} },
+        t102: { id: 't102', contact: 'buy drink', info:{media:'',show:true,tdList:[{title:'kola', isFinish:false},{title:'spring', isFinish:true},{title:'orange juice', isFinish:true}]} },
+        t103: { id: 't103', contact: 'choose song', info:{media:'https://www.youtube.com/watch?v=t4-Z8vVMRBs',show:true}},
+        t104: { id: 't104', contact: 'invite friends', info:{media:'',show:true,tdList:[{title:'guy', isFinish:false},{title:'sapir', isFinish:true},{title:'oshri', isFinish:true}]} },
+        t105: { id: 't105', contact: 'party', info:{media:'https://amp.thenationalnews.com/image/policy:1.1042483:1593608070/tr30-June-Ibiza.jpg?f=16x9&w=1200&$p$f$w=ae152f2',show:true} },
     },
     colums: {
         c101: {
             id: 'c101',
             title: 'Todo',
-            taskIds: ['t101', 't102', 't103', 't104']
+            taskIds: [ 't102', 't104']
         },
         c102: {
             id: 'c102',
             title: 'Doing',
-            taskIds: ['t105', 't106', 't107', 't108', 't109']
+            taskIds: ['t105', 't103']
         },
         c103: {
             id: 'c103',
             title: 'Done',
-            taskIds: ['t110', 't111', 't112', 't113']
+            taskIds: ['t101']
         },
     },
     columnOrder: ['c101', 'c102', 'c103']
