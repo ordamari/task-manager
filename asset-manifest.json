@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/task-manager/./static/css/main.35ef5f19.chunk.css",
+    "main.js": "/task-manager/./static/js/main.115c8fbf.chunk.js",
+    "main.js.map": "/task-manager/./static/js/main.115c8fbf.chunk.js.map",
+    "runtime-main.js": "/task-manager/./static/js/runtime-main.935b9f5b.js",
+    "runtime-main.js.map": "/task-manager/./static/js/runtime-main.935b9f5b.js.map",
+    "static/js/2.31c99b63.chunk.js": "/task-manager/./static/js/2.31c99b63.chunk.js",
+    "static/js/2.31c99b63.chunk.js.map": "/task-manager/./static/js/2.31c99b63.chunk.js.map",
+    "index.html": "/task-manager/./index.html",
+    "precache-manifest.8944f8f17b876e078f9bad754154d6ae.js": "/task-manager/./precache-manifest.8944f8f17b876e078f9bad754154d6ae.js",
+    "service-worker.js": "/task-manager/./service-worker.js",
+    "static/css/main.35ef5f19.chunk.css.map": "/task-manager/./static/css/main.35ef5f19.chunk.css.map",
+    "static/js/2.31c99b63.chunk.js.LICENSE": "/task-manager/./static/js/2.31c99b63.chunk.js.LICENSE",
+    "static/media/global.scss": "/task-manager/./static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.935b9f5b.js",
+    "static/js/2.31c99b63.chunk.js",
+    "static/css/main.35ef5f19.chunk.css",
+    "static/js/main.115c8fbf.chunk.js"
+  ]
+}
