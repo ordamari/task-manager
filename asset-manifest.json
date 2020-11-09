@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/task-manager/./static/css/main.35ef5f19.chunk.css",
-    "main.js": "/task-manager/./static/js/main.e0cb35dd.chunk.js",
-    "main.js.map": "/task-manager/./static/js/main.e0cb35dd.chunk.js.map",
+    "main.css": "/task-manager/./static/css/main.16e7ce0e.chunk.css",
+    "main.js": "/task-manager/./static/js/main.0f737235.chunk.js",
+    "main.js.map": "/task-manager/./static/js/main.0f737235.chunk.js.map",
     "runtime-main.js": "/task-manager/./static/js/runtime-main.935b9f5b.js",
     "runtime-main.js.map": "/task-manager/./static/js/runtime-main.935b9f5b.js.map",
-    "static/js/2.31c99b63.chunk.js": "/task-manager/./static/js/2.31c99b63.chunk.js",
-    "static/js/2.31c99b63.chunk.js.map": "/task-manager/./static/js/2.31c99b63.chunk.js.map",
+    "static/js/2.6f7e7653.chunk.js": "/task-manager/./static/js/2.6f7e7653.chunk.js",
+    "static/js/2.6f7e7653.chunk.js.map": "/task-manager/./static/js/2.6f7e7653.chunk.js.map",
     "index.html": "/task-manager/./index.html",
-    "precache-manifest.06dacc2b676963fc9872164870e13283.js": "/task-manager/./precache-manifest.06dacc2b676963fc9872164870e13283.js",
+    "precache-manifest.41f8d9965b1227fa49c4cffb018e73a8.js": "/task-manager/./precache-manifest.41f8d9965b1227fa49c4cffb018e73a8.js",
     "service-worker.js": "/task-manager/./service-worker.js",
-    "static/css/main.35ef5f19.chunk.css.map": "/task-manager/./static/css/main.35ef5f19.chunk.css.map",
-    "static/js/2.31c99b63.chunk.js.LICENSE": "/task-manager/./static/js/2.31c99b63.chunk.js.LICENSE",
-    "static/media/global.scss": "/task-manager/./static/media/Montserrat-Regular.ee653992.ttf"
+    "static/css/main.16e7ce0e.chunk.css.map": "/task-manager/./static/css/main.16e7ce0e.chunk.css.map",
+    "static/js/2.6f7e7653.chunk.js.LICENSE": "/task-manager/./static/js/2.6f7e7653.chunk.js.LICENSE",
+    "static/media/global.scss": "/task-manager/./static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/taskmanager.png": "/task-manager/./static/media/taskmanager.70740aa3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.935b9f5b.js",
-    "static/js/2.31c99b63.chunk.js",
-    "static/css/main.35ef5f19.chunk.css",
-    "static/js/main.e0cb35dd.chunk.js"
+    "static/js/2.6f7e7653.chunk.js",
+    "static/css/main.16e7ce0e.chunk.css",
+    "static/js/main.0f737235.chunk.js"
   ]
 }
