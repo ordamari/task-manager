@@ -13,6 +13,7 @@ export function Specialities(props) {
 
     const [data, setData] = useState(dataService.query());
     const [lockTasks, setLockTasks] = useState(dataService.getLocks());
+    const [backgroundImg,setBackgroundImg]=useState('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')
 
 
     useEffect(() => {
@@ -22,6 +23,22 @@ export function Specialities(props) {
     useEffect(() => {
         dataService.updateLocks(lockTasks);
     }, [lockTasks])
+
+    useEffect(() => {
+        let unsubscribe1 = null;
+        unsubscribe1 = eventBus.on('setBackground', ({full,thumb}) => {
+            setBackgroundImg(thumb);
+            setBackgroundImg(full);
+        })
+       
+
+        return () => {
+            unsubscribe1 = null
+        }
+
+
+
+    }, [])
 
     const onDragEnd = result => {
         document.body.style.color = 'inherit'
@@ -262,7 +279,7 @@ export function Specialities(props) {
 
 
     return (
-        <div className='main-div'>
+        <div style={{backgroundImage:`url(${backgroundImg})`}} className='main-div'>
 
             <DragDropContext
                 onDragEnd={onDragEnd}

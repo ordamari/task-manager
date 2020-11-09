@@ -10,7 +10,8 @@ export function useForm(initialState, cb = function () { }) {
         function (event) {
             if (!event) setFields({
                 contact: '',
-                title:''
+                title:'',
+                keyword:''
             });
             else {
 

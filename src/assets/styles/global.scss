@@ -14,9 +14,11 @@
 // Components
 @import "components/column.scss";
 @import "components/specialities.scss";
+@import "components/navbar.scss";
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 3px;
+    height: 10px;
 }
 
 /* Track */
@@ -34,5 +36,9 @@
 ::-webkit-scrollbar-button {
     height: 0px;
     width: 0;
+}
+
+.App{
+    overflow: hidden;
 }
 

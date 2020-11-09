@@ -1,0 +1,96 @@
+.navbar-container {
+
+    background-color: #333;
+    position: relative;
+    padding: 10px 50px;
+
+    h1 {
+        font-size: 22px;
+    }
+
+    nav {
+
+        img {
+            width: 30px;
+        }
+    }
+
+    .imgs-container {
+        padding: 10px;
+        background-color: #333;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 145px 145px;
+        grid-gap: 10px;
+        right: 40px;
+        top: 50px;
+        z-index: 3;
+
+        img {
+            width: 145px;
+        }
+    }
+
+    .imgs-input {
+
+        .in-input {
+            position: absolute;
+            top: 13px;
+            right: 55px;
+            
+            svg {
+                font-size: 30px;
+                color: black;
+
+            }
+            
+            span{
+                font-size: 30px;
+                color: rgba(172, 169, 169, 0.781);
+
+                font-weight: 800;
+            }
+
+            
+            .delete-container{
+
+                
+                button {
+                    background-color: inherit;
+                    border: none;
+                    cursor: pointer;
+                    
+                    
+                }
+                
+                svg{
+                    border-right: 2px solid rgba(39, 34, 34, 0.671);
+                    margin-bottom: 2px;
+                }
+            }
+        }
+
+        form {
+            input {
+                font: inherit;
+                color: currentColor;
+                width: 100%;
+                border: 0;
+                height: 1.1876em;
+                margin: 0;
+                display: block;
+                padding: 6px 0 7px;
+                min-width: 0;
+                background-color: #3f3f3f;
+                box-sizing: content-box;
+                animation-name: mui-auto-fill-cancel;
+                letter-spacing: inherit;
+                animation-duration: 10ms;
+                -webkit-tap-highlight-color: transparent;
+                padding-right:65px ;
+                padding-left:5px;
+
+            }
+        }
+    }
+}
